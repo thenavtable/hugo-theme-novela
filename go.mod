@@ -1,3 +1,3 @@
-module github.com/forestryio/hugo-theme-novela
+module github.com/thenavtable/hugo-theme-novela
 
 go 1.13
