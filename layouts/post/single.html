@@ -10,9 +10,8 @@
         {{ .Content }}
     </article>
 
-    {{ partial "article/_after_content.html" . }}
-
     {{ partial "article/next.html" . }}
+    {{ partial "post/_bottom.html" . }}
 </section>
 
 {{ $script := resources.Get "js/progressBar.js" }}
